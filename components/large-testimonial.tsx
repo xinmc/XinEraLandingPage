@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TestimonialImg from "@/public/images/large-testimonial.jpg";
+import XinEraLOGO from "@/public/images/LOGO.png";
 
 export default function LargeTestimonial() {
   return (
@@ -23,23 +23,22 @@ export default function LargeTestimonial() {
               </svg>
               <Image
                 className="rounded-full"
-                src={TestimonialImg}
+                src={XinEraLOGO}
                 width={48}
                 height={48}
-                alt="Large testimonial"
+                alt="XinEraSays"
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+              “我们终会再聚首，那里
+              <em className="italic text-gray-500">兰香馥郁、夏意正浓</em>。
+              等待之短暂不足以填补那光辉漫长，我们终将以更闪耀的姿态归返故乡。”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">画饼带师</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+              <a className="text-blue-500" href="https://www.jstar.vip">
+                勾星
               </a>
             </div>
           </div>

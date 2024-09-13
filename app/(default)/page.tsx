@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "您好 | 心纪元MC",
+  description: "心纪元 | Xin Era | Minecraft",
 };
 
 import Hero from "@/components/hero-home";

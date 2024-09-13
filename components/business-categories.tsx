@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Logo01 from "@/public/images/logo-01.svg";
-import Logo02 from "@/public/images/logo-02.svg";
-import Logo03 from "@/public/images/logo-03.svg";
-import Logo04 from "@/public/images/logo-04.svg";
-import Logo05 from "@/public/images/logo-05.svg";
-import Logo06 from "@/public/images/logo-06.svg";
-import Logo07 from "@/public/images/logo-07.svg";
-import Logo08 from "@/public/images/logo-08.svg";
-import Logo09 from "@/public/images/logo-09.svg";
+import Logo01 from "@/public/images/LOGO.png";
+import Logo02 from "@/public/images/1acacia_boat.png";
+import Logo03 from "@/public/images/2experience_bottle.png";
+import Logo04 from "@/public/images/3golden_sword.png";
+import Logo05 from "@/public/images/4filled_map.png";
+import Logo06 from "@/public/images/5potato.png";
+import Logo07 from "@/public/images/6writable_book.png";
+import Logo08 from "@/public/images/7wooden_hoe.png";
+import Logo09 from "@/public/images/8brewing_stand.png";
 
 export default function BusinessCategories() {
   return (
@@ -180,9 +180,9 @@ export default function BusinessCategories() {
                   <Image
                     className="relative"
                     src={Logo01}
-                    width={32}
-                    height={32}
-                    alt="Logo 01"
+                    width={50}
+                    height={50}
+                    alt="XinEra"
                   />
                 </div>
               </div>
