@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        sans: ["ChillBitmap", "sans-serif"],
         inter: ["Inter", "sans-serif"],
         mono: ["Roboto Mono", "monospace"],
       },
