@@ -55,7 +55,7 @@ export default function HeroHome() {
                   </a>
                   <a
                     className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="#0"
+                    href="#hero"
                   >
                     查看更多
                   </a>
@@ -68,6 +68,7 @@ export default function HeroHome() {
             className="mx-auto max-w-3xl"
             data-aos="zoom-y-out"
             data-aos-delay={600}
+            id="hero"
           >
             <div className="relative h-96">
               <Image
